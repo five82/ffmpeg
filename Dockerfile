@@ -59,7 +59,7 @@ mkdir -p /input /output /ffmpeg/ffmpeg_sources && \
 cd /ffmpeg/ffmpeg_sources && \
 git clone https://github.com/sekrit-twc/zimg.git && \
 git clone --depth 1 https://github.com/xiph/opus.git && \
-git clone --depth 1 https://git.videolan.org/git/x264 && \
+git clone --depth 1 https://code.videolan.org/videolan/x264.git && \
 git clone https://github.com/videolan/x265.git && \
 curl -O https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2 && \
 tar xjf ffmpeg-snapshot.tar.bz2 && \
